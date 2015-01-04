@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
+    <!-- add favicon -->
 </head>
 <body>
 
@@ -20,30 +21,38 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> <!-- drop down menu and the 3 lines on the button -->
                 </button>
                 <a class="navbar-brand" href="index.html">
                     <img alt="Brand" src="images/brand.png">
                     <strong>Sara Stew</strong>Art work
                 </a>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <!-- drop down menu for mobile -->
                 <ul class="nav navbar-nav">
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="files/SaraStewartResume2014.pdf">Resume <i class="fa fa-download"></i><!-- font awesome download icon --></a></li>
+                    <li>
+                        <a href="files/SaraStewartResume2014.pdf">
+                            Resume
+                            <i class="fa fa-download"></i><!-- font awesome download icon -->
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <div class="header">
         <div class="container text-center">
-            <h1><strong>Sara Stew</strong>Art work</h1>
-            <h2>Interactive Designer / Medical Illustrator</h2>
-            <p><em>I have experience creating websites, apps, animations, anatomical models and art directing projects with a team of graphic designers and animators.</em></p>
+            <div class="header-image"></div>
+            <div class="header-content">
+                <h1><strong>Sara Stew</strong>Art work</h1>
+                <h2>Interactive Designer / Medical Illustrator</h2>
+                <p><em>I have experience creating websites, apps, animations, anatomical models<br /> <!-- Find a better way to solve this break issue with responsive design in mind. -->
+                and art directing projects with a team of graphic designers and animators.</em></p>
+            </div>
         </div>
     </div>
 

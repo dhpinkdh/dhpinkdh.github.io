@@ -2,13 +2,16 @@ body {
     padding-top: 70px;
 }
 
-#site-nav .container-fluid  {
-    margin-left: 75px;
-    margin-right: 75px;
-}
+@media (min-width: 768px) {
 
-#dite-nav .navbar-brand {
-    margin-right: 60px;
+    #site-nav .container-fluid  {
+        margin-left: 75px;
+        margin-right: 75px;
+    } 
+
+    #site-nav .navbar-brand {
+        margin-right: 60px;
+    }
 }
 
 #site-nav .navbar-brand img {
@@ -19,4 +22,24 @@ body {
 .header {
     padding-top: 48px;
     padding-bottom: 48px;
+    margin: 0;
+    position: relative;
+}
+
+.header-image {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/brand.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    position: absolute;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    opacity: 0.2;
 }
