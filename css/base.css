@@ -1,0 +1,22 @@
+body {
+    padding-top: 70px;
+}
+
+#site-nav .container-fluid  {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+#dite-nav .navbar-brand {
+    margin-right: 60px;
+}
+
+#site-nav .navbar-brand img {
+    height: 22px;
+    width: 22px;
+}
+
+.header {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
