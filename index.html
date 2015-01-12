@@ -13,12 +13,12 @@
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <!-- add favicon -->
 </head>
-<body>
+<body >
 
     <nav class="navbar navbar-default navbar-fixed-top" id="site-nav">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-drop-down">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span> <!-- drop down menu and the 3 lines on the button -->
@@ -28,16 +28,16 @@
                     <strong>Sara Stew</strong>Art work
                 </a>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <!-- drop down menu for mobile -->
+            <div class="collapse navbar-collapse" id="mobile-drop-down"> <!-- drop down menu for mobile -->
                 <ul class="nav navbar-nav">
                     <li><a href="#portfolio-container">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="files/SaraStewartResume2014.pdf">
+                        <a href="https://drive.google.com/file/d/0B8TBX7AUazonMVBVZVRGVE83aEE/view?usp=sharing">
                             Resume
-                            <i class="fa fa-download"></i><!-- font awesome download icon -->
+                            <i class="fa fa-download"></i>
                         </a>
                     </li>
                 </ul>
@@ -50,8 +50,8 @@
             <div class="header-content">
                 <h1><strong>Sara Stew</strong>Art work</h1>
                 <h2>Interactive Designer / Medical Illustrator</h2>
-                <p><em>I have experience creating websites, apps, animations, anatomical models<br /> <!-- Find a better way to solve this break issue with responsive design in mind. -->
-                and art directing projects with a team of graphic designers and animators.</em></p>
+                <p>3 years of experience creating responsive websites, mobile applications,
+                3D animations, anatomical models and various print pieces.</p>
             </div>
         </div>
     </div>
@@ -60,11 +60,11 @@
         <h2>Portfolio</h2>
         <nav id="portfolio-nav">
             <ul class="nav nav-pills nav-justified">
-                <li class="active"><a href="#latest-work" data-toggle="pill">Latest Work</a></li>
-                <li><a href="#design" data-toggle="pill">Design</a></li>
-                <li><a href="#illustration" data-toggle="pill">Illustration</a></li>
-                <li><a href="#animation" data-toggle="pill">Animation</a></li>
-                <li><a href="#3D-models" data-toggle="pill">3D Models</a></li>
+                <li class="active"><a class="btn btn-default" href="#latest-work" data-toggle="pill">Latest Work</a></li>
+                <li><a class="btn btn-default" href="#design" data-toggle="pill">Design</a></li>
+                <li><a class="btn btn-default" href="#illustration" data-toggle="pill">Illustration</a></li>
+                <li><a class="btn btn-default" href="#animation" data-toggle="pill">Animation</a></li>
+                <li><a class="btn btn-default" href="#3D-models" data-toggle="pill">3D Models</a></li>
             </ul>
         </nav>
 
@@ -253,7 +253,33 @@
                     <p>sara.ann.stewart@gmail.com</p>
                     <br />
                     <h4>Connect</h4>
-                    <p>Linkedin Behance Email Twitter GitHub</p>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="http://www.linkedin.com/in/sarastewartwork">
+                                <i class="fa fa-linkedin-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.behance.net/sarastewartwork">
+                                <i class="fa fa-behance-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:sara.ann.stewart@gmail.com">
+                                <i class="fa fa-envelope-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/sarastewartwork">
+                                <i class="fa fa-twitter-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/dhpinkdh">
+                                <i class="fa fa-git-square fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

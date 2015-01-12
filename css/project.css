@@ -1,0 +1,16 @@
+.project-container img {
+    margin: auto;
+}
+
+.back-to-portfolio-button {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+
+.back-to-portfolio-button a {
+    color: #000;
+    font-weight: 200;
+    margin-left:25px;
+    margin-right:27px;
+}
