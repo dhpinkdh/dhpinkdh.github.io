@@ -10,8 +10,7 @@ next_project: incyte-PV-models.html
 next_project_title: Incyte Polycythemia Vera Models
 images:
 - /images/portfolio/xarelto/xarelto-showcase1.png
-- /images/portfolio/xarelto/xarelto-wireframe1.png
-- /images/portfolio/xarelto/xarelto-wireframe2.png
+
 - /images/portfolio/xarelto/xarelto-wireframe3.png
 - /images/portfolio/xarelto/xarelto-wireframe4.png
 - /images/portfolio/xarelto/xarelto-wireframe5.png

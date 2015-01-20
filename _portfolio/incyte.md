@@ -9,6 +9,10 @@ previous_project_title: Xarelto DocCenter Application
 next_project: salix-poster.html
 next_project_title: Opioid Induced Constipation Poster
 images:
-- http://placehold.it/800x700
-- http://placehold.it/800x700
+- /images/portfolio/incyte/incyte-concept-1.png
+- /images/portfolio/incyte/incyte-desktop-1.png
+- /images/portfolio/incyte/incyte-desktop-2.png
+- /images/portfolio/incyte/incyte-concept-2.png
+- /images/portfolio/incyte/incyte-convention-1.png
+- /images/portfolio/incyte/incyte-convention-2.png
 ---

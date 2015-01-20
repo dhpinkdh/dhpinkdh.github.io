@@ -9,6 +9,6 @@ previous_project_title: Mobile App Wireframes & Mockups
 next_project: horizon.html
 next_project_title: Risk of NSAID Therapy Poster for Horizon
 images:
-- http://placehold.it/800x700
-- http://placehold.it/800x700
+- /images/portfolio/meda/meda-1.png
+- /images/portfolio/meda/meda-2.png
 ---
