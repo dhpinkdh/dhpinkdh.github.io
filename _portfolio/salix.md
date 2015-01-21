@@ -9,6 +9,8 @@ previous_project_title: Polycythemia Vera Models for Incyte
 next_project: prialt-moa.html
 next_project_title: PRIALT's Mechanism of Action 3D Animation
 images:
-- http://placehold.it/800x700
-- http://placehold.it/800x700
+- /images/portfolio/salix/salix-1.png
+- /images/portfolio/salix/salix-2.png
+- /images/portfolio/salix/salix-3.png
+- /images/portfolio/salix/salix-4.png
 ---
