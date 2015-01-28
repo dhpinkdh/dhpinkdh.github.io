@@ -103,7 +103,6 @@ h4 {
 
 .nav-pills li.active a, .nav-pills li.active a:hover, .nav-pills li.active a:focus {
     background-color: #58b0a7;
-    border: 2px solid white;
     -webkit-box-shadow: 0px 0px 0px #E8E8E8;
     -moz-box-shadow: 0px 0px 0px #E8E8E8;
     box-shadow: 2px 2px 4px #E8E8E8;

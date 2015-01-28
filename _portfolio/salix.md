@@ -1,7 +1,7 @@
 ---
 title: Opioid Induced Constipation Poster for Salix
 role: Art Director, Medical Director, Illustrator, Copywriter
-description: This is a patient-friendly poster to help explain how opioids can lead to constipation. A bristol stool chart is included in order to help facilitate in-office conversations with their doctor. I created the original sketch of the poster layout, wrote and referenced all copy, and created the final artwork. I then worked with a graphic desinger who laid out the final design with my direction.
+description: I created the original sketch of the poster layout, wrote and referenced all copy, and created the final artwork. I then worked with a graphic designer who laid out the final design with my art direction. This is a patient-friendly poster to help explain how opioids may lead to opioid-induced constipation. A Bristol stool chart is included in order to help facilitate in-office conversations with their doctor. 
 layout: project
 permalink: /portfolio/salix-poster.html
 previous_project: incyte-PV-models.html

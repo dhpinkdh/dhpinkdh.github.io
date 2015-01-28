@@ -9,6 +9,6 @@ previous_project_title: PRIALT Rinse and Fill (IFU) Animation
 next_project: Xarelto-DocCenter-Application.html
 next_project_title: Xarelto DocCenter Application
 images:
-- http://placehold.it/800x700
-- http://placehold.it/800x700
+- /images/portfolio/misc-3d-models/hemoglobin.png
+- /images/portfolio/misc-3d-models/nephron.png
 ---

@@ -9,6 +9,6 @@ previous_project_title: Anatomical Model Concepts
 next_project: misc-illustrations.html
 next_project_title: Misc. Illustrations
 images:
-- http://placehold.it/800x700
-- http://placehold.it/800x700
+- /images/portfolio/phac-illustration/phac-illustration.png
+- /images/portfolio/phac-illustration/phac-sketch.png
 ---
