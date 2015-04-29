@@ -1,5 +1,4 @@
 .navbar a {
-    color: #7ca3be;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
@@ -7,10 +6,18 @@
     text-decoration: none;
 }
 
+.navbar .dropdown-menu>li>a {
+    font-family: 'Lato', sans-serif;;
+    color: #7ca3be;
+    text-transform: none;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+
 .navbar-default {
     background-color: #ffffff;
-    border-color: #7ca3be;
     text-transform: uppercase;
+    box-shadow: 1px 1px 3px #858383;
 }
 
 .navbar-default .navbar-brand {

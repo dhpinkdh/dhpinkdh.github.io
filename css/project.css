@@ -1,0 +1,88 @@
+/* PROJECT 1 - MNML */
+
+.project-bg-1 {
+	background-image: url(../images/project1/header-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* PROJECT 2 - The LIFTLAB */
+
+.project-bg-2 {
+	background-image: url(../images/project2/header-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* PROJECT 3 - Let's Work */
+
+.project-bg-3 {
+	background-image: url(../images/project3/header-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* PROJECT 4 - BAMcinemaFest */
+
+.project-bg-4 {
+	background-image: url(../images/project4/header-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* END PROJECTS */
+
+.project-header {
+    padding-top: 10%;
+    padding-bottom: 14%;
+}
+
+.project-header p {
+	color: #FFF;
+	margin: 0 60% 0 0;
+}
+
+.project-container {
+	padding-top: 200px;
+}
+
+.project-container h5 {
+	text-shadow: none;
+}
+
+.project-container .project-pills {
+	margin-bottom: 2%;
+	background-color: #7ca3be;
+	border: 2px solid #7ca3be;
+	box-shadow: 1px 1px 3px #858383;
+}
+
+.project-container .project-pills li a {
+	text-decoration: none;
+	border-radius: 0px;
+}
+
+.project-container .project-pills li.active a {
+	background-color: #FFF;
+}
+
+.project-container .project-pills li.active h5 {
+	color: #7ca3be;
+}
+
+.project-container .project-pills li a:hover h5 {
+	color: #7ca3be;
+}
+
+.project-container .project-pills li a:active h5 {
+	color: #FFF;
+}
+
+.project-container .tab-pane {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+	box-shadow: 1px 1px 3px #858383;
+	margin-bottom: 100px;
+	background-color: #FFF;
+}
