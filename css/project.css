@@ -4,6 +4,7 @@
 	background-image: url(../images/project1/header-image.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 /* PROJECT 2 - The LIFTLAB */
@@ -12,6 +13,7 @@
 	background-image: url(../images/project2/header-image.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 /* PROJECT 3 - Let's Work */
@@ -20,6 +22,7 @@
 	background-image: url(../images/project3/header-image.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 /* PROJECT 4 - BAMcinemaFest */
@@ -28,6 +31,7 @@
 	background-image: url(../images/project4/header-image.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 /* END PROJECTS */
@@ -37,11 +41,15 @@
     padding-bottom: 5%;
 }
 
+.project-header h1 {
+	text-shadow: 1px 1px 3px #445B6A;
+}
+
 .project-header p {
 	color: #FFF;
 	margin: 0 65% 0 0;
 	font-weight: 700;
-	text-shadow: 1px 1px 1px #858383;
+	text-shadow: 1px 1px 3px #445B6A;
 }
 
 .project-container {
@@ -87,4 +95,9 @@
 	box-shadow: 1px 1px 3px #858383;
 	margin-bottom: 100px;
 	background-color: #FFF;
+}
+
+.project-container .img-responsive {
+	margin-bottom: 80px;
+	width: 75%;
 }
