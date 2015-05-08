@@ -1,182 +1,215 @@
-body {
-    padding-top: 70px;
+h1, h2, h5 {
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-shadow: 1px 1px 1px #858383;
 }
 
-h1, h2, h3, h4, h5, ul, li, a, p {
+h3, h4 {
+    color: #7ca3be;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+
+p, ul, li {
     font-family: 'Lato', sans-serif;
-    color: #808080;
+    font-size: 13pt;
+    font-weight: 300;
 }
 
-h1 {
-    font-weight: 200;
+a {
+    text-decoration: underline;
 }
 
-h2 {
-    font-size: 18pt;
-    font-weight: 600;
-    color: #58b0a7;
-}
+/* STYLES */
 
-h3 {
-    color: #585858;
-    font-weight: 600;
-}
-
-h4 {
-    color: #585858;
-    font-size: 12pt;
-    font-weight: 600;
-}
-
-@media (min-width: 768px) {
-
-    #site-nav .container-fluid  {
-        margin-left: 75px;
-        margin-right: 75px;
-    } 
-
-    #site-nav .navbar-brand {
-        margin-right: 60px;
-    }
-}
-
-#site-nav .navbar-brand img {
-    height: 22px;
-    width: 22px;
-}
-
-#site-nav a {
-    font-weight: 200;
-}
-
-.navbar-default {
-    background-color: #FFF;
-}
-
-#site-nav {
-    -webkit-box-shadow: 0px 0px 8px #7E7E7E;
-    -moz-box-shadow: 0px 0px 8px #7E7E7E;
-    box-shadow: 0px 0px 8px #7E7E7E;
-}
-
-#site-nav a:hover {
-    color: #58b0a7;
-}
-
-.header {
-    padding-top: 48px;
-    padding-bottom: 48px;
-    margin: 0;
-    position: relative;
-}
-
-.header p {
-    font-weight: 200;
-}
-
-.header-image {
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-image: url("../images/brand.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 200px 200px;
-    position: absolute;
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -o-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: blur(3px);
-    opacity: 0.2;
-}
-
-#portfolio {
-    padding-bottom: 100px;
-}
-
-#portfolio-nav {
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
-
-.nav-pills li.active a, .nav-pills li.active a:hover, .nav-pills li.active a:focus {
-    background-color: #58b0a7;
-    -webkit-box-shadow: 0px 0px 0px #E8E8E8;
-    -moz-box-shadow: 0px 0px 0px #E8E8E8;
-    box-shadow: 2px 2px 4px #E8E8E8;
-}
-
-.nav-pills li a {
-    color: #000;
-    font-weight: 200;
-    margin-left:25px;
-    margin-right:27px;
-}
-
-/* Text over image thumbnails */
-.tab-content a {
-    display: inline-block;
-}
-
-.tab-content .col-md-6 {
-    position: relative;
-    margin-bottom: 20px;
-}
-
-.thumbnail-image-description {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+.centered {
     text-align: center;
 }
 
-.footer .bio-photo {
-    position: relative;
+.right-align {
+    text-align: right;
 }
 
-.footer img {
-    position: absolute;
-    top: -130px;
-    border-radius: 50%;
-    border: 3px solid white;
+.white {
+    color: #FFF;
+    text-shadow: 1px 1px 1px #858383;
 }
 
-@media (max-width: 768px) {
+/* INDEX */
 
-    .footer img {
-        position: absolute;
-        top: -350px;
-        border-radius: 50%;
-        border: 3px solid white;
-        left: 0;
-        margin-left: 28%;
+.index-bg {
+    background-image: url(../images/home_page_bg.png);
+    background-repeat: no-repeat;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 700px) {
+    .header {
+        padding: 20% 0 18% 0;
     }
-
+    h1 {
+        font-size: 24pt;
+    }
 }
 
-/* footer style */
-.footer {
+@media (min-width: 700px) {
+    .header {
+        padding-top: 14%;
+        padding-bottom: 12%;
+    }
+}
+
+.header img {
+    max-width: 150px;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+    background-color: #FFF;
+    border-radius: 4px;
+    /* padding: 0 80px; */
+}
+
+.portfolio h3.title {
+    padding: 2rem 0;
+}
+
+.portfolio-thumbnail {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #7ca3be;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+.portfolio .col-md-6 {
+    max-width: 448px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption {
+    top: 0;
+    width: 100%;
     height: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #58b0a7;
+    opacity: 1;
+    transition: opacity 0.3s;
 }
 
-.footer h4 {
-    text-transform: uppercase;
+.caption .caption-text {
+    position: absolute;
+    text-align: center;
+    letter-spacing: 0;
+    /* padding: 30% 20%; */
+    width: 100%;
+    top: 30%;
+    left: 0;
 }
 
-.footer p {
-    font-weight: 200;
+.caption .caption-text h1 {
+    color: #7ca3be;
+    text-shadow: none;
+}
+
+.portfolio-thumbnail a img {
+    /* box-shadow: 1px 1px 3px #858383; */
+    border-radius: 4px;
+    position: relative;
+    display: block;
+    width: 100%;
+    opacity: 0.2;
+    transition: opacity 0.3s;
+}
+
+.portfolio-thumbnail:hover a img {
+    opacity: 1;
+}
+
+.portfolio-thumbnail:hover .caption {
+    opacity: 0;
+}
+
+.portfolio-note {
+    padding-top: 7%;
+    padding-bottom: 10%;
+    color: #7ca3be;
+}
+
+.portfolio-note a {
+    color: #7ca3be;
+    font-weight: 700;
+}
+
+/* ABOUT ME */
+
+.aboutme-bg {
+    background: url(../images/aboutme_bg.png) no-repeat center center;
+    background-size: cover;
+}
+
+ .aboutme-header {
+    padding: 17rem 0 5rem 0;
+    /* padding-bottom: 30px; */
+}
+
+.aboutme {
+    padding: 0 0 280px 0;
+}
+
+.aboutme p {
+    color: #7ca3be;
+    padding: 1rem 0;
+}
+
+/* FOOTER */
+
+#footer {
+    color: #FFF;
+    bottom: 0;
+    width: 100%;
+    background-color: #7ca3be;
+    padding-top: 3%;
+}
+
+#footer .col-md-6 {
+    margin-bottom: 3rem;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+#footer a {
     color: #FFF;
 }
 
-.footer li a {
-    color: #FFF;
-    width: 200%;
-    height: 200%;
+#footer .icons a {
+    text-decoration: none;
 }
 
+#footer .icons .fa-circle {
+    text-shadow: 1px 1px 1px #858383;
+}
+
+#footer .icons .fa-inverse {
+    color: #7ca3be;
+}
+
+#footer .icons li {
+    display: inline;
+}
+
+.copyright {
+    padding-top: 1rem;
+}
+
+.copyright p {
+    font-size: 10pt;
+}
