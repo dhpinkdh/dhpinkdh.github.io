@@ -3,7 +3,7 @@
 .project-bg-1 {
 	background-image: url(../images/project1/header-image.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -12,7 +12,7 @@
 .project-bg-2 {
 	background-image: url(../images/project2/header-image.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -21,7 +21,7 @@
 .project-bg-3 {
 	background-image: url(../images/project3/header-image.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -30,16 +30,36 @@
 .project-bg-4 {
 	background-image: url(../images/project4/header-image.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
 }
 
 /* END PROJECTS */
 
-.project-header {
+@media (max-width: 700px) {
+    .project-header {
+        padding: 20% 0 0 0;
+    }
+    h1 {
+        font-size: 24pt;
+    }
+    .google-slides iframe {
+    	width: 75%;
+    	height: 100%;
+    }
+}
+
+@media (min-width: 700px) {
+    .project-header {
+        padding-top: 10%;
+    	padding-bottom: 5%;
+    }
+}
+
+/* .project-header {
     padding-top: 10%;
     padding-bottom: 5%;
-}
+} */
 
 .project-header h1 {
 	text-shadow: 1px 1px 3px #445B6A;
@@ -47,7 +67,9 @@
 
 .project-header p {
 	color: #FFF;
-	margin: 0 65% 0 0;
+	max-width: 500px;
+	text-align: left;
+	margin-right: auto;
 	font-weight: 700;
 	text-shadow: 1px 1px 3px #445B6A;
 }
@@ -58,11 +80,12 @@
 
 .project-container h5 {
 	text-shadow: none;
+	color: #7ca3be;
 }
 
 .project-container .project-pills {
 	margin-bottom: 2%;
-	background-color: #7ca3be;
+	background-color: #FFF;
 	border: 2px solid #7ca3be;
 	box-shadow: 1px 1px 3px #858383;
 }
@@ -73,11 +96,11 @@
 }
 
 .project-container .project-pills li.active a {
-	background-color: #FFF;
+	background-color: #7ca3be;
 }
 
 .project-container .project-pills li.active h5 {
-	color: #7ca3be;
+	color: #FFF;
 }
 
 .project-container .project-pills li a:hover h5 {
@@ -100,4 +123,10 @@
 .project-container .img-responsive {
 	margin-bottom: 80px;
 	width: 75%;
+}
+
+.project-container p {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
