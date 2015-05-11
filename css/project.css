@@ -34,7 +34,7 @@
     background-attachment: fixed;
 }
 
-/* END PROJECTS */
+/* media queries */
 
 @media (max-width: 700px) {
     .project-header {
@@ -56,11 +56,6 @@
     }
 }
 
-/* .project-header {
-    padding-top: 10%;
-    padding-bottom: 5%;
-} */
-
 .project-header h1 {
 	text-shadow: 1px 1px 3px #445B6A;
 }
@@ -75,13 +70,15 @@
 }
 
 .project-container {
-	padding-top: 200px;
+	padding-top: 100px;
 }
 
 .project-container h5 {
 	text-shadow: none;
 	color: #7ca3be;
 }
+
+/* tabbed menu */
 
 .project-container .project-pills {
 	margin-bottom: 2%;
@@ -103,6 +100,10 @@
 	color: #FFF;
 }
 
+.project-container .project-pills li.active a:hover h5 {
+	color: #FFF;
+}
+
 .project-container .project-pills li a:hover h5 {
 	color: #7ca3be;
 }
@@ -112,7 +113,7 @@
 }
 
 .project-container .tab-pane {
-	padding-top: 50px;
+	padding-top: 3rem;
 	padding-bottom: 50px;
 	width: 100%;
 	box-shadow: 1px 1px 3px #858383;
@@ -121,12 +122,19 @@
 }
 
 .project-container .img-responsive {
-	margin-bottom: 80px;
 	width: 75%;
 }
 
-.project-container p {
+.project-container .tab-pane h3 {
+	margin: 5rem 0 3rem 0;
+}
+
+.project-container .tab-pane p {
 	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 2rem auto;
+}
+
+.project-container .tab-pane ul {
+	max-width: 800px;
+	margin: 2rem auto;
 }
