@@ -45,6 +45,7 @@ a {
 .index-bg {
     background-image: url(../images/home_page_bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* MEDIA QUERIES */
