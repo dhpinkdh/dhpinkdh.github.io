@@ -11,80 +11,52 @@ layout: default
 	</div>
 
 	<div class="container project-container">
-		<div role="tabpanel">
-
-			<!-- Nav tabs -->
-			<ul class="nav nav-pills nav-justified project-pills" role="pilllist">
-				<li role="presentation" class="active"><a href="#prototypes" aria-controls="prototypes" role="tab" data-toggle="tab"><h5>Prototypes</h5></a></li>
-				<li role="presentation"><a href="#process" aria-controls="process" role="tab" data-toggle="tab"><h5>Process</h5></a></li>
-			</ul>
-
-			<!-- Tab panes -->
-			<div class="tab-content project-content">
-				<div role="tabpanel" class="col-md-12 tab-pane active" id="prototypes">
-					<h3 class="centered">Project Summary</h3>
-					<p>After interviewing recent immigrants, experts within Catholic Charities, and pulling in results from our online survey, we created an initial prototype of our product; a mobile application that acts as both a reference guide and learning tool for immigrants who need an entry-level job. For more information about how we got to this decision, check out the process tab above.</p>
-					<h3 class="centered">Initial Prototype</h3>
-					<p>Using our storyboard I created a MVP (minimum viable product), a clickable prototype to being user testing. Feel free to try out the initial prototype <a href="http://marvl.in/4a743j">here.</a></p>
-					<img class="img-responsive center-block" src="../images/project1/initial_prototype.png">
-					<p>The MVP gave us valuable insight into how immigrants would respond to the application. Overall we had very positive feedback, but received insightful ways to improve the application. We conducted user testing with one member directing the user, while the other took notes.</p>
-					<h3 class="centered">Latest Prototype</h3>
-					<p>Using the feedback we gained from user testing we re-evaluated the flow of the application and added new sections, including an introduction to better explain the purpose of the application to the user. You can view the latest prototype <a href="http://marvl.in/34e0fi">here.</a></p>
-					<img class="img-responsive center-block" src="../images/project1/latest_prototype.png">
+		<div class="col-md-12 project-content">
+					<h3 class="centered">Problem</h3>
+					<p class="centered"><strong>How do we make it easier for patients to find the right doctors on NYULanogne.org?</strong>
 					
-				</div>
-				<div role="tabpanel" class="tab-pane" id="process">
-					<h3 class="centered">Design Challenge</h3>
-					<p><strong>How might we improve educational experiences for new immigrants and refugees?</strong>
-					<h3 class="centered">Inspiration Phase</h3>
-					<p><strong>Within this phase we:</strong></p>
+					<h3 class="centered">Usability Testing</h3>
+					<p><strong>To help us better understand our key usability issues, I created user stories and ran tests on the current Find a Doctor website.</strong></p>
+					<p>"It’s not a bad page, if you know exactly what you’re looking for... maybe the Conditions and Find a Doctor page could sort of be one super page, where you can just type in hernia and then you know, you can find a doctor. Could be easier."</p>
+
+					<h3 class="centered">Key Usability Issues</h3>
 					<ul>
-						<li>Formed a team with a diverse set of backgrounds from the community XX+UX</li>
-						<li>Selected our design challenge</li>
-						<li>Researched established methods, classes and communities</li>
-						<li>Created a set of interview questions and an online survey</li>
-						<li>Established our incoming assumptions</li>
-						<li>Interviewed experts, immigrants and sat in on classes</li>
+						<li>Patients defaulted to searching by Specialty</li>
+						<li>Searching by Condition brought them to a different part of the website</li>
+						<li>Search only worked on exact matches to a user's search query</li>
+						<li>You could not sort doctors by online scheduling availability</li>
+						<li>You could not search by treatment</li>
+						<li>You could not serach by location</li>
 					</ul>
-					<img class="img-responsive center-block" src="../images/project1/inspiration.png">
-					<h3 class="centered">Ideation Phase</h3>
-					<p><strong>Within this phase we:</strong></p>
+					
+					<h3 class="centered">Wireframes</h3>
+					<p><strong>I worked with stakeholders to redesign both the way that you search for doctors, and how you filter the results. This redesign took into account all devices, as NYULangone has a high mobile presence.</strong></p>
+					<p>We wanted to have users search for the appropriate specialty, condition, treatment or name first, before providing filters. That is why the single searchbox is the new focal point of the Find a Doctor page and module. After the initial search, insurance and location are shown as the highest priority filters on the results page.</p>
+
+					<img class="img-responsive center-block" src="../images/project1/FaD-desktop-wireframe1.png">
+					<img class="img-responsive center-block" src="../images/project1/FaD-desktop-wireframe2.png">
+					<img class="img-responsive center-block" src="../images/project1/FaD-mobile-wireframe1.png">
+
+					<h3 class="centered">Final Designs &amp; Prototypes</h3>
+					<p>Using the approved wireframes as a framework I created the final UI in Sketch. In order to test our designs, provide context for the developers, and socialize these improvements across the company I created interactive protoypes of the new Find a Doctor. You can play with them below.</p>
+
+					<div style="text-align:center"><iframe src="https://marvelapp.com/j2a9fh?emb=1" width="960" height="699" allowTransparency="true" frameborder="0"></iframe></div>
+
+					<div style="text-align:center; margin-top:60px"><iframe src="https://marvelapp.com/j2efd0?emb=1" width="300" height="600" allowTransparency="true" frameborder="0"></iframe></div>
+
+					<h3 class="centered">Project Summary</h3>
+					<p>After implementation I interviewed and sent surveys to users at the call center. The feedback they gave me was invaluable. It was great to hear about how these improvements could help make their jobs easier, as well as to hear about their pain points that still existed.</p>
+
+					<p>Analytics were a key part of this development process, and future insights. We want to make sure that we measure the success of our solutions with data.</p>
+
+					<h3 class="centered">Future Enhancements</h3>
+					<p>Some features had to be cut for the MVP and initial launch. These will be added in the next release.</p>
 					<ul>
-						<li>Shared all our insights from interviews and observation</li>
-						<li>Formed common themes</li>
-						<li>Created insight statements</li>
-						<li>Explored design opportunities through “How Might We…” statements</li>
-						<li>Brainstormed solutions</li>
-						<li>Determined what to prototype</li>
-						<li>Created a storyboard</li>
+						<li>Ability to search by neighborhood</li>
+						<li>Pediatric filter</li>
+						<li>Spelling assist (spellcheck in search)</li>
+						<li>Synonoms for Specialties</li>
 					</ul>
-					<img class="img-responsive center-block" src="../images/project1/ideation.png">
-					<p><strong>Key themes discovered through interviews:</strong></p>
-					<ul>
-						<li><strong>Building A Community:</strong> Religious and community centers are common points of support, as learning about the experiences of other immigrants and sharing resources is invaluable for assimilation.</li>
-						<li><strong>We’re Not In English Class Anymore:</strong> Regardless of English speaking level, most immigrants struggle with confidence in their speaking ability - “textbook English” is very different from slang-laden, day-to-day English.</li>
-						<li><strong>A Transferrable Skill?:</strong> Language limitations and cultural differences make the job search process a struggle. Questions on job applications do not always translate and interview processes are misunderstood.</li>
-					</ul>
-					<p><strong>“How might we…” design opportunities:</strong></p>
-					<ul>
-						<li>How might we design a context for immigrants to practice English skills in a practical, applied way for everyday life?</li>
-						<li>How might we create a centralized platform that disseminates information through organizations that immigrants rely on?</li>
-						<li><strong>How might we lessen the difficulty for immigrants to understand the application process and successfully obtain a job?</strong></li>
-					</ul>
-					<img class="img-responsive center-block" src="../images/project1/ideation2.png">
-					<p>After brainstorming solutions, and deciding on our product, we began creating a visual storyboard.</p>
-					<h3 class="centered">Implementation Phase</h3>
-					<p><strong>Within this phase we:</strong></p>
-					<ul>
-						<li>Formed a team with a diverse set of backgrounds from the community XX+UX</li>
-						<li>Created and tested a prototype</li>
-						<li>Developed a pitch</li>
-						<li>Explored funding opportunities and plans for distribution</li>
-						<li>Updated the prototype</li>
-						<li>Reflected on our process</li>
-					</ul>
-					<img class="img-responsive center-block" src="../images/project1/implementation.png">
-					<p>Using our storyboard I created the initial clickable prototype and began user testing.</p>
 				</div>
 			</div>
 

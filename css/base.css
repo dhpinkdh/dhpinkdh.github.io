@@ -1,28 +1,19 @@
 h1, h2, h5 {
     color: #FFF;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.1em;
-    text-shadow: 1px 1px 1px #858383;
 }
 
 h3, h4 {
-    color: #7ca3be;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.1em;
+    color: #785790;
 }
 
 p, ul, li {
     font-family: 'Lato', sans-serif;
     font-size: 12pt;
-    font-weight: 300;
 }
 
 a {
     text-decoration: underline;
+    color: #cc8595;
 }
 
 /* STYLES */
@@ -37,13 +28,12 @@ a {
 
 .white {
     color: #FFF;
-    text-shadow: 1px 1px 1px #858383;
 }
 
 /* INDEX */
 
 .index-bg {
-    background-image: url(../images/home_page_bg.png);
+    background-image: url(../images/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -67,14 +57,13 @@ a {
 }
 
 .header img {
-    max-width: 150px;
+    max-width: 100px;
 }
 
 /* PORTFOLIO */
 
 .portfolio {
-    background-color: #FFF;
-    border-radius: 4px;
+    background-color: #F7F7F7;
     /* padding: 0 80px; */
 }
 
@@ -85,9 +74,12 @@ a {
 .portfolio-thumbnail {
     position: relative;
     overflow: hidden;
-    border: 1px solid #7ca3be;
-    border-radius: 4px;
+    border: 1px solid #999;
     margin: 20px;
+}
+
+.portfolio-thumbnail:hover {
+    border: 1px solid #FFF;
 }
 
 .portfolio .col-md-6 {
@@ -97,6 +89,7 @@ a {
 }
 
 .caption {
+    color: #785790;
     top: 0;
     width: 100%;
     height: 100%;
@@ -108,20 +101,25 @@ a {
     position: absolute;
     text-align: center;
     letter-spacing: 0;
-    /* padding: 30% 20%; */
     width: 100%;
     top: 30%;
     left: 0;
 }
 
 .caption .caption-text h1 {
-    color: #7ca3be;
+    color: #785790;
     text-shadow: none;
 }
 
+.caption .caption-text h3 {
+    margin: 10px 0 5% 0;
+}
+
+.caption .caption-text p {
+    margin: 0 10% 0 10%;
+}
+
 .portfolio-thumbnail a img {
-    /* box-shadow: 1px 1px 3px #858383; */
-    border-radius: 4px;
     position: relative;
     display: block;
     width: 100%;
@@ -140,11 +138,11 @@ a {
 .portfolio-note {
     padding-top: 7%;
     padding-bottom: 10%;
-    color: #7ca3be;
+    color: #785790;
 }
 
 .portfolio-note a {
-    color: #7ca3be;
+    color: #cc8595;
     font-weight: 700;
 }
 
@@ -165,7 +163,7 @@ a {
 }
 
 .aboutme p {
-    color: #7ca3be;
+    color: #785790;
     padding: 1rem 0;
 }
 
@@ -175,7 +173,7 @@ a {
     color: #FFF;
     bottom: 0;
     width: 100%;
-    background-color: #7ca3be;
+    background-color: #333;
     padding-top: 3%;
 }
 
@@ -195,12 +193,8 @@ a {
     text-decoration: none;
 }
 
-#footer .icons .fa-circle {
-    text-shadow: 1px 1px 1px #858383;
-}
-
 #footer .icons .fa-inverse {
-    color: #7ca3be;
+    color: #333;
 }
 
 #footer .icons li {

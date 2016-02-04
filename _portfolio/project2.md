@@ -1,7 +1,7 @@
 ---
-title: The LIFTLAB
-role: Branding // Web Development // Graphic Design
-description: I maintain their website as well as design eblasts, banners, and print materials.
+title: Let's Work!
+role: UX Design // User Research // UI Design
+description: I worked with a team from XX+UX NYC to design an android app that helps new immigrants aquire entry-level jobs.
 layout: project_2
-permalink: /portfolio/TheLIFTLAB.html
+permalink: /portfolio/Lets-work.html
 ---
