@@ -4,19 +4,18 @@
 
 .navbar .dropdown-menu>li>a {
     font-family: 'Lato', sans-serif;;
-    color: #785790;
+    color: #999999;
     text-transform: none;
     font-weight: normal;
     letter-spacing: 0;
 }
 
 .navbar-default {
-    background-color: #ffffff;
-    box-shadow: 1px 1px 3px #858383;
+    background-color: #F0F0F0;
 }
 
 .navbar-default .navbar-brand {
-    color: #785790;
+    color: #1a1a1a;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -24,11 +23,11 @@
 }
 
 .navbar-default .navbar-text {
-    color: #785790;
+    color: #1a1a1a;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #785790;
+    color: #1a1a1a;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {

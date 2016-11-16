@@ -27,11 +27,8 @@
 
 /* PROJECT 4 - BAMcinemaFest */
 
-.project-bg-4 {
-	background-image: url(../images/project4/header-image.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+.project {
+	background-color: #FFFFFF;
 }
 
 /* media queries */
@@ -56,17 +53,12 @@
     }
 }
 
-.project-header h1 {
-	text-shadow: 1px 1px 3px #333;
-}
-
 .project-header p {
-	color: #FFF;
+	color: #1a1a1a;
 	max-width: 500px;
 	text-align: left;
 	margin-right: auto;
 	font-weight: 700;
-	text-shadow: 1px 1px 3px #333;
 }
 
 .project-container {

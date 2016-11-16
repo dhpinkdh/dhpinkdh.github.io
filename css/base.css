@@ -1,9 +1,9 @@
 h1, h2, h5 {
-    color: #FFF;
+    color: #1a1a1a;
 }
 
 h3, h4 {
-    color: #785790;
+    color: #cc8595;
 }
 
 p, ul, li {
@@ -33,39 +33,39 @@ a {
 /* INDEX */
 
 .index-bg {
-    background-image: url(../images/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
+    background-color: #FFFFFF;
 }
 
 /* MEDIA QUERIES */
 
 @media (max-width: 700px) {
     .header {
-        padding: 30% 0 12% 0;
+        padding: 30% 5% 8% 5%;
     }
     h1 {
         font-size: 24pt;
+        margin-top: 5px;
     }
 }
 
 @media (min-width: 700px) {
     .header {
         padding-top: 14%;
-        padding-bottom: 12%;
+        padding-bottom: 8%;
     }
 }
 
 .header img {
-    max-width: 100px;
+    max-width: 80px;
+    float: left;
+    margin-right: 2%;
 }
 
 /* PORTFOLIO */
 
 .portfolio {
-    background-color: #F7F7F7;
-    margin-bottom: 30px;
+    background-color: #FFFFFF;
+    margin-bottom: 5%;
 }
 
 .portfolio h3.title {
@@ -108,7 +108,7 @@ a {
 }
 
 .caption .caption-text h1 {
-    color: #785790;
+    color: #1a1a1a;
     text-shadow: none;
 }
 
@@ -150,8 +150,7 @@ a {
 /* ABOUT ME */
 
 .aboutme-bg {
-    background: url(../images/aboutme_bg.png) no-repeat center center;
-    background-size: cover;
+    background-color: #FFFFFF;
 }
 
  .aboutme-header {
@@ -171,11 +170,10 @@ a {
 /* FOOTER */
 
 #footer {
-    color: #FFF;
     bottom: 0;
     width: 100%;
-    background-color: #333;
-    padding-top: 3%;
+    background-color: #F0F0F0;
+    padding: 5% 0 0 0;
 }
 
 #footer .col-md-6 {
@@ -187,7 +185,7 @@ a {
 }
 
 #footer a {
-    color: #FFF;
+    color: #cc8595;
 }
 
 #footer .icons a {
@@ -195,7 +193,7 @@ a {
 }
 
 #footer .icons .fa-inverse {
-    color: #333;
+    color: #FFFFFF;
 }
 
 #footer .icons li {
