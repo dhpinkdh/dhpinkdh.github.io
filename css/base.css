@@ -1,3 +1,23 @@
+/* MEDIA QUERIES */
+
+@media all and (max-width: 480px) {
+
+    .center-prototype {
+        display: none;
+    }
+    iframe {
+        display: none;
+    }
+    .tagline {
+        line-height: 1.5rem;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .nav-background img {
+        display: none;
+    }
+}
+
 /* TYPOGRAPHY */
 
 body {
@@ -22,11 +42,48 @@ body {
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 
-/* SPLASH PAGE */
-html {
-    background: url(images/cats.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+#blockquote-teal {
+    border-left: 5px solid #009688;
+    font-size: 24px;
+    color: #009688; 
+    font-style: italic;
+}
+
+.teal-divider {
+    border: 2px solid #009688;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+}
+
+iframe, object, embed {
+    max-width: 100%;
+}
+
+.center-prototype {
+    max-width: 967px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-margin {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.design-margin {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.description-text {
+    margin-top: 1rem;
+}
+
+.title {
+    text-align: left;
+}
+
+.tagline {
+    text-align: left;
+    width: 100%;
 }
