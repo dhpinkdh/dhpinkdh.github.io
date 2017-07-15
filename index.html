@@ -1,71 +1,632 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="index-bg">
-	<div class="header">
-	<title>Sara Stewart</title>
-		<div class="container">
-			<img alt="logo" src="images/logo_pink.png">
-			<h1>Sara Stewart</h1>
-			<h3>UX Designer in NYC</h3>
-		</div>
-	</div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/dbz.png" type="image/x-icon">
 
-	<div class="container portfolio">
-	    <h3 class="centered title">Sample of Work</h3>
-	    <div class="row">
-	        <div class="col-md-5 col-md-offset-1 col-sm-12">
-	        	<div class="portfolio-thumbnail">
-		            <a href="/portfolio/Find-a-doctor.html">
-			            <img class="img-responsive" src="../images/project1/find_a_doctor_thumbnail.png">
-			            <div class="caption">
-			            	<div class="caption-text">
-					            <h1>Find a Doctor</h1>
-					            <h3>Responsive Website</h3>
-				            </div>
-			            </div>
-		            </a>
-	            </div>
-	        </div>
-	        <div class="col-md-5 col-sm-12">
-	        	<div class="portfolio-thumbnail">
-		            <a href="/portfolio/tvrn.html">
-		                <img class="img-responsive" src="../images/tvrn/tvrn_thumbnail.png">
-			            <div class="caption">
-			            	<div class="caption-text">
-					            <h1>TVRN</h1>
-					            <h3>VR Platform</h3>
-				            </div>
-			            </div>
-		            </a>
-	            </div>
-	        </div>
-	        <div class="col-md-5 col-md-offset-1 col-sm-12">
-	        	<div class="portfolio-thumbnail">
-		            <a href="/portfolio/Lets-work.html">
-		                <img class="img-responsive" src="../images/project2/lets_work_thumbnail.png">
-			            <div class="caption">
-			            	<div class="caption-text">
-					            <h1>Let's Work!</h1>
-					            <h3>Android App</h3>
-				            </div>
-			            </div>
-		            </a>
-	            </div>
-	        </div>
-	        <div class="col-md-5 col-sm-12">
-	        	<div class="portfolio-thumbnail">
-		            <a href="/portfolio/Illustrations.html">
-		                <img class="img-responsive" src="../images/project3/illustrations_thumbnail.png">
-			            <div class="caption">
-			            	<div class="caption-text">
-					            <h1>Illustrations</h1>
-				            </div>
-			            </div>
-		            </a>
-	            </div>
-	        </div>
-	    </div>
-	</div>
-</div>
+    <title>Sara Stewart | Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+
+    <!-- Stylesheets -->
+    <link href="css/gallery-materialize.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar and Header -->
+    <nav class="nav-extended nav-full-header teal">
+        <div class="nav-background">
+            <img class="active" src="images/background-sketch.png" alt="background">
+        </div>
+        <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo">Sara Stewart</a>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a target="_tab" href="https://dribbble.com/sarastewartwork">Dribbble</a></li>
+                <li><a target="_tab" href="https://www.instagram.com/sarastewartwork/">Instagram</a></li>
+                <li><a target="_tab" href="https://drive.google.com/open?id=0B8TBX7AUazonN0JuWHpGRUJvcHc">Resume</a></li>
+            </ul>
+        </div>
+        <div class="nav-header valign-wrapper">
+            <div class="container valign-wrapper">
+                <h1 class="title">I am a Designer with 5 years of experience in healthcare & enterprise software</h1>
+                <div class="tagline">I also like front-end development, 3D modeling, VR, and all cats</div>
+            </div>
+        </div>
+
+        <!-- Fixed Masonry Filters -->
+        <div class="categories-wrapper amber darken-2">
+            <div class="categories-container">
+                <ul class="categories container">
+                    <li class="active"><a href="#all">All</a></li>
+                    <li><a href="#case-studies">Case Studies</a></li>
+                    <li><a href="#side-projects">Side Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <ul class="side-nav" id="nav-mobile">
+        <li><a href="https://dribbble.com/sarastewartwork">Dribbble</a></li>
+        <li><a href="https://www.instagram.com/sarastewartwork/">Instagram</a></li>
+        <li><a target="_tab" href="https://drive.google.com/open?id=0B8TBX7AUazonN0JuWHpGRUJvcHc">Resume</a></li>
+    </ul>
+
+
+    <!-- Gallery -->
+    <div id="portfolio" class="section gray">
+        <div class="container">
+            <div class="gallery row">
+                <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter case-studies">
+                    <div class="gallery-curve-wrapper">
+                        <a class="gallery-cover gray">
+                            <img class="responsive-img" src="images/infor_thumbnail.png" alt="infor-thumbnail">
+                        </a>
+
+                        <div class="gallery-header">
+                            <span>The Rental Counter</span>
+                        </div>
+                        <div class="gallery-body">
+                            <div class="title-wrapper">
+                                <h3>The Rental Counter</h3>
+                                <span class="price">User Research, UX Design, UI Design</span>
+                            </div>
+                            
+                            <br />
+                            <div class="description-text">
+                                <p class="description">
+                                A redesign of Infor’s M3 CloudSuite™ solution that allows equipment rental shop representatives to create and manage equipment rental agreements, maintain customer information, and manage inventory. I led the team to create a streamlined process, a UI refresh, and mobile adaptability.</p>
+                            </div>
+
+                            <hr class="teal-divider">
+
+                            <h4>My Role</h4>
+                            <p class="description">Working on the Manufacturing, Industrial and Distribution team gave me the opportunity to take a deeper dive into the industry through site visits, usability sessions and collaboration with a veteran product and development team. During this project I helped create a new framework that would be architected based on my designs for other teams to use in the future.</p>
+
+                            <div class="image-margin">
+                                <img width="100%" src="images/rentalcounter/rentalcounter_onsite1.png">
+                            </div>
+                            
+                            <h4>Existing Version</h4>
+                            <p class="description">The Rental Counter is a stand-alone module that pulls data from the Enterprise Resource Planning (ERP) product M3. At the beginning of this project I was introduced to the existing product's functionality and design through demos and a development environment.</p>
+                            
+                            <div class="image-margin">
+                                <img width="100%" src="images/rentalcounter/old1.png">
+                            </div>
+                            
+                            <h4>On-site Research</h4>
+                            <p class="description">Our team conducted discovery research with equipment rental professionals through both virtual sessions and in person visits to their workplaces. We were able to discover both successes and pain points by interviewing users from a diverse group of customers and observing real-world use of the product in the context of equipment rentals.</p>
+
+                            <div class="image-margin">
+                                <img width="100%" src="images/rentalcounter/rentalcounter_onsite4.png">
+                            </div>
+                            
+                            <h4>Key Findings</h4>
+                            <ul class="description">
+                                <li>• Rental Workers are manually creating price estimates</li>
+                                <li>• Current agreements lack the adaptability that users and rental counters need</li>
+                                <li>• Many diverse scenarios in equipment rental would demand a flexible system</li>
+                                <li>• Rental workers need fast access to accurate equipment information that the current system was not providing</li>
+                            </ul>
+
+                            <br />
+                            <h4>Architecting a Solution</h4>
+                            <p class="description">After researching the business processes at a variety of customer locations, we worked to diagram out the hierarchy of what pages and content would need to be developed. Within the sitemap we also included the main actions that would be taken from each of these pages, and showed how they would connect to one another.</p>
+
+                            <div class="design-margin">
+                                <img class="responsive-img" src="images/rentalcounter/rentalcounter_sitemap.png">
+                            </div>
+                            
+                            <p class="description">In order to marry business requirements with user needs and development limitations I started creating common use cases. These use cases would be our talking point when reviewing designs. Accompanying flows for each use case were created to help depict the functionality required in each screen.</p>
+
+                            <div class="design-margin">
+                                <img width="100%" src="images/rentalcounter/rentalcounter_flow1.png">
+                            </div>
+                            
+                            <p class="description">After establishing our user stories and flows we created wireframes. We focused on making decisions based on our research findings ensuring user needs were always kept in focus and being solved for. I created wireframes for key screens as well as two different prototypes that would later be used for usability testing.</p>
+
+                            <div class="image-margin">
+                                <img width="100%" src="images/rentalcounter/rentalcounter_process2.png">
+                            </div>
+
+                            <h4>Testing & Validation</h4>
+                            <p class="description">In total, we conducted two rounds of usability testing with our users. These tests validated our research, designs, and functionality.</p>
+                            
+                            <div class="image-margin">
+                                <img width="100%" src="images/rentalcounter/rentalcounter_process1.png">
+                            </div>
+
+                            <p class="description">These tests were conducted in person, as well as via WebEx for customers in the UK. Ultimately we tested these prototypes with sales counter representatives from Cianbro, GAP Group, and Hertz.</p>
+
+                            <div class="image-margin">
+                                <img width="100%" src="images/rentalcounter/rentalcounter_onsite3.png">
+                            </div>
+
+                            <blockquote id="blockquote-teal">“This is why we’ve worked so closely with Infor - you all have really stepped up to the plate when we asked for this. It is leaps and bounds better than what we’ve seen before. It’s really amazing what you’ve been able to do.”</blockquote>
+                            <p class="description"> - Rob, Wagner Equipment Rental</p>
+
+                            <br />
+                            <h4>Conclusion</h4>
+                            
+                            <p class="description">After reviewing all the feedback gathered from user testing, the development team, and our internal design team I moved forward to create pixel perfect designs. There were some limitations that we encountered such as only using approved design components from our established design language in order to have developed the new framework in a reusable way for the rest of the product team.</p>
+                            
+                            <div class="image-margin">
+                                <img width="100%" src="images/rentalcounter/rentalcounter1.png">
+                            </div>
+
+                            <p class="description">I created <a target="_tab" href="https://marvelapp.com/hji6i7?emb=1">final prototypes</a> for the development team to better understand some common use cases that a user would take through the application. I also created a functional spec document, as well as an annotated document specifically calling out the established components used from Infor's design language.</p>
+                            
+                            <div class="image-margin">
+                                <img width="100%" src="images/rentalcounter/rentalcounter2.png">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter side-projects">
+                    <div class="gallery-curve-wrapper">
+                        <a class="gallery-cover gray">
+                            <img src="images/gdi_thumbnail.png" alt="girl-develop-it-thumbnail">
+                        </a>
+                        <div class="gallery-header">
+                            <span>Hackentine's Day</span>
+                        </div>
+                        <div class="gallery-body">
+                            <div class="title-wrapper">
+                                <h3>Hackentine's Day</h3>
+                                <span class="price">Taught a workshop on design thinking</span>
+                            </div>
+
+                            <p class="description">As part of Girl Develop It's first Hackathon, I taught an hour long workshop on user experience design and design thinking. This was a primer before participants began working on their projects in order for them to consider design while developing their product.</p>
+
+                            <iframe src="https://docs.google.com/presentation/d/1Jk9I-QPR3wKLphhrhkorxfVDu24RCLNF549Zv_hMR6U/embed?start=false&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                            
+                            <hr class="teal-divider">
+
+                            <h4>Workshop Goals</h4>
+
+                            <p class="description">The majority of the hackathon attendees were developers. This meant that my workshop attendees would have little to no experience with design thinking. Knowing this, I created an introductory lesson plan with print outs where they would write and sketch without using their computers. My goal was to make design and my lesson, as approachable as possible.</p>
+
+                            <br />
+                            <div class="carousel-wrapper">
+                                <div class="carousel">
+                                    <a class="carousel-item" href="#one!"><img src="images/hackentines/hackentines1.jpg"></a>
+                                    <a class="carousel-item" href="#one!"><img src="images/hackentines/hackentines7.jpg"></a>
+                                    <a class="carousel-item" href="#one!"><img src="images/hackentines/hackentines3.jpg"></a>
+                                    <a class="carousel-item" href="#one!"><img src="images/hackentines/hackentines12.jpg"></a>
+                                    <a class="carousel-item" href="#one!"><img src="images/hackentines/hackentines9.jpg"></a>
+                                    <a class="carousel-item" href="#one!"><img src="images/hackentines/hackentines5.jpg"></a>
+                                    <a class="carousel-item" href="#one!"><img src="images/hackentines/hackentines6.jpg"></a>
+                                    <a class="carousel-item" href="#one!"><img src="images/hackentines/hackentines11.jpg"></a>
+                                </div>
+                            </div>
+                            <br />
+
+                            <p class="description">My assumptions going into the hackathon paid off, as most of the attendees were comfortable approaching sketching with a pencil and paper. It also lowered the stakes when showing and testing their sketches with one another. I feel my workshop successfully taught them the value of testing their designs early and often, which helped them when developing their products later that afternoon.</p>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter case-studies">
+                    <div class="gallery-curve-wrapper">
+                        <a class="gallery-cover gray">
+                            <img class="responsive-img" src="images/infor_thumbnail.png" alt="infor-thumbnail">
+                        </a>
+
+                        <div class="gallery-header">
+                            <span>Sales Hub</span>
+                        </div>
+                        <div class="gallery-body">
+                            <div class="title-wrapper">
+                                <h3>Sales Hub</h3>
+                                <span class="price">User Research, UX Design, UI Design</span>
+                            </div>
+
+                            <br />
+                            <p class="description">Infor recently acquired the UK based company Travis Perkins as a flagship customer for Sales Hub, a sales order entry application that interfaces seamlessly with M3 (an ERP). Travis Perkins is planning on adding 24,000 new users across more than 20 distinct brands with a rollout date of January 2018. Sales Hub needed to be updated in order to cover Travis Perkin’s needs, while maintaining a generally available product that remains applicable to all current and future customers.</p>
+
+                            <hr class="teal-divider">
+
+                            <h4>My Role</h4>
+                            <p class="description">Click on the movie button above to see me in action.</p>
+
+                            <div class="image-margin">
+                                <img width="100%" src="images/saleshub/saleshub1.png">
+                            </div>
+
+                            <p class="description">I was brought on as the sole designer from Infor during this engagement with Travis Perkins. I traveled to their head offices in Northampton, UK in order to sit in on workshops, meet Travis Perkins’ core team, go on site visits, conduct interviews, conduct workshops and present the first round of designs.</p>
+
+                            <br />
+                            <h4>On-site Workshops & Research</h4>
+
+                            <p class="description">The first trip consisted of myself sitting in on 4 core workshops outlining Price Guidance, Claimbacks, Contract Support and Tool Hire. These are complex business processes that are core to Travis Perkin's business model, so it was imperative that myself and the development team understand the requirements associated with each. I spent a week in these workshops with my project manager, and the Infor development team, that flew in to meet us from Sweden.</p>
+
+                            <div class="image-margin">
+                                <img width="100%" src="images/saleshub/saleshub3.png">
+                            </div>
+
+                            <p class="description">The second trip I made was a trip focused around an on-site visit to multiple Travis Perkin's brands (Travis Perkins consists of ~20 individual brands), as well as one on one interviews with counter sales representatives. My team, which included myself, my project manager, and another designer for support organized this week's activities with the core team from Travis Perkins in order to get all the information we needed for our wireframes.</p>
+
+                            <div class="image-margin">
+                                <img width="100%" src="images/saleshub/saleshub4.png">
+                            </div>
+
+                            <h4>Architecting a Solution</h4>
+                            <p class="description">In order to understand the architecture of the product, I began with a simple site map with an object-oriented approach. Each section of the application shows its goals, content, actions, and connections.</p>
+
+                            <div class="design-margin">
+                                <img width="100%" src="images/saleshub/saleshub_blueprint.png">
+                            </div>
+
+                            <p class="description">While on site with users I conducted collaborative design workshops. The purpose of these workshops was to sketch solutions with these users as well as to get feedback on my initial designs.</p>
+
+                            <div class="image-margin">
+                                <img width="100%" src="images/saleshub/saleshub2.png">
+                            </div>
+                            
+                            <h4>Testing & Validation</h4>
+
+                            <p class="description">User testing was to be conducted in the UK and facilitated by the core team at Travis Perkins. This meant that I had to give clear instruction on how to conduct the tests, and document all aspects of the user’s feedback.</p>
+                            
+                            <blockquote id="blockquote-teal">
+                                <a target="_tab" href="https://inforus.invisionapp.com/share/PMA16ITE3">View Prototype</a>
+                            </blockquote>
+
+                            <p class="description">I achieved this clarity through a Research Guide, Typeform survey, collaborative notes document, Lookback (screen recordings), and by walking the Travis Perkin’s team through these documents and our expectations. These tools were also a way to allow myself the ability to get feedback live as they conducted these tests.</p>
+
+                            <div class="design-margin">
+                                <iframe src="https://docs.google.com/presentation/d/1JuxvqWm3QZaNxt9hwa8Y82wdByasYkSTcZ-QI3TmQW4/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                            </div>
+
+                            <br />
+                            <h4>Development Collaboration</h4>
+
+                            <p class="description">Throughout the process I was in communication with two development teams. Hook &amp; Loop has established a design language (SoHo Xi) that provides both the styling and code base for components that are to be used across all of Infor’s products. This language evolves and grows with each project and Sales Hub was a great example of this collaboration between the SoHo development team and M3 development team.</p>
+
+                            <p class="description">M3 wanted to avoid any customizations of these existing components, as this would provide more work for development as well as maintenance. I reviewed all of my designs with the SoHo development team to discuss what new design patterns we wanted to build out, and which aspects of my designs would need to be adjusted. This allowed the M3 development team to be provided all the base code and guidelines they needed to make Sales Hub a reality.</p>
+
+                            <br />
+                            <h4>Conclusion</h4>
+
+                            <p class="description">After working with all these different teams, I distilled the requirements into a final design. This design was true to the needs of Travis Perkins, the needs for a GA (generally available) product, the reality of our technical limitations, and a successful example of a product built on the ideals of Infor.</p>
+
+                            <br />
+                            <iframe src="https://drive.google.com/file/d/0B8TBX7AUazonelFYRWtBMWNsc2M/preview?usp=sharing" frameborder="0" width="100%" height="500px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                            <br />
+
+                            <p class="description">Our goal is to have Sales Hub be used by all Travis Perkins employees and to begin rollout to other brands January 2018. Until then I will be working with the development teams to help answer any questions and provide design QA.</p>
+
+                        </div>
+                        <div class="gallery-action">
+                            <a target="_tab" href="https://drive.google.com/file/d/0B8TBX7AUazoneHNTNGlLeXgyZzA/view?usp=sharing" class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">movie</i></a>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter side-projects">
+                    <div class="gallery-curve-wrapper">
+                        <a class="gallery-cover gray">
+                            <img src="images/tvrn/tvrn_thumbnail.png" alt="placeholder">
+                        </a>
+                        <div class="gallery-header">
+                            <span>TVRN</span>
+                        </div>
+                        <div class="gallery-body">
+                            <div class="title-wrapper">
+                                <h3>TVRN</h3>
+                                <span class="price">Co-Founder</span>
+                            </div>
+                            <p class="description">
+                                TVRN provides an accessible platform for artists to showcase their work in the closest form of reality when galleries are inaccessible - virtual reality. The platform is built using A-frame and other web technologies which allow users to view TVRN content from any WebGL device or VR headset.</p>
+                            
+                            <hr class="teal-divider">
+                            
+                            <br />
+                            <h4>My Role</h4>
+                            <p class="description">I work on adapting artwork, gallery spaces, and any other assets into 3D models. Using these 3D models and A-frame, I am able to build out VR scenes to specifications. I also lead user experience design within the VR environments.</p>
+
+                            <!-- Add a GIF -->
+                            
+                            <br />
+                            <h4>How it Works</h4>
+                            
+                            <!-- Add a diagram -->
+                            
+                            <p class="description">1. Pick a pre-set gallery space
+                            <br />2. Take 360º pictures of your artwork to upload 3D models
+                            <br />3. Label your artwork, add descriptions and arrange your space
+                            <br />4. Save to generate a custom URL
+                            <br />5. Visit your VR gallery with customers or friends around the world</p>
+                            
+                            <br />
+                            <h4>View Demo</h4>
+                            
+                            <blockquote id="blockquote-teal">
+                                <a target="_tab" href="http://tvrn.me/demo">Visit Henry 56</a>
+                            </blockquote>
+                            
+                        </div>
+                        <div class="gallery-action">
+                            <a target="_tab" href="http://tvrn.me" class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">link</i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter case-studies">
+                    <div class="gallery-curve-wrapper">
+                        <a class="gallery-cover gray">
+                            <img class="responsive-img" src="images/nyulmc_thumbnail.png" alt="nyulmc-thumbnail">
+                        </a>
+                        <div class="gallery-header">
+                            <span>Find a Doctor</span>
+                        </div>
+                        <div class="gallery-body">
+                            <div class="title-wrapper">
+                                <h3>Find a Doctor</h3>
+                                <span class="price">UX Design, UI Design</span>
+                            </div>
+
+                            <br />
+                            <p class="description">NYULMC’s Find a Doctor tool is one of the most critical aspects of their business, as it brings in prospective patients. If a patient is not able to find the appropriate physician for their condition or symptom, they will look for medical treatment elsewhere. The find a doctor tool database was developed in house, but had severe limitations in CMS customization as well as optimization. The original design for the tool was done by the agency HUGE, but missed requirements due to the contract’s deadline and the website’s go-live date.</p>
+
+                            <hr class="teal-divider">
+
+                            <h4>My Role</h4>
+                            <p class="description">I was brought to the team at NYULMC as the first and only user experience designer, and was faced with the following problem; how do we make it easier for patients to find the right doctors on NYULanogne.org? Knowing some of the frustrations that users were having with the current iteration of the tool, along with the technical limitations of our tech-stack allowed me to get started on a redesign. I worked with a team of stakeholders, developers, quality assurance engineers, and project managers to lead a redesign of the Find a Doctor tool’s user experience.</p>
+
+                            <br />
+                            <h4>Usability Testing</h4>
+
+                            <br />
+                            <blockquote id="blockquote-teal">“It’s not a bad page, if you know exactly what you’re looking for... maybe the Conditions and Find a Doctor page could sort of be one super page, where you can just type in hernia and then you know, you can find a doctor. Could be easier.”</blockquote>
+
+                            <p class="description">To help us better understand our key usability issues, I created user stories and ran tests on the current Find a Doctor website. I tested a scenario where patients were diagnosed with a hernia and had to find an appropriate physician near their location. Five desktop users and five mobile users went through this scenario and shed some light on known and new usability issues.</p>
+
+                            <br />
+                            <h4>Key Usability Issues</h4>
+                            <ul class="description">
+                                <li>• Patients defaulted to searching by Specialty</li>
+                                <li>• Searching by Condition brought patients to a different part of the website</li>
+                                <li>• Search only worked on exact matches to a patient's search query</li>
+                                <li>• Patients could not sort doctors by online scheduling availability</li>
+                                <li>• Patients could not search by treatment</li>
+                                <li>• Patients could not search by location</li>
+                            </ul>
+
+                            <br />
+                            <h4>Wireframes</h4>
+                            <p class="description">Using this information, along with taking into account the flexibility of the new search technology (Solr search engine) that we would be using, I started sketching and wireframing. I presented these initial designs to stakeholders and physicians, who provided feedback and helped prioritize our list of new features. Being a responsive website I had to take all breakpoints into account, and helped establish a styleguide and grid layout with the front-end developer.</p>
+
+                            <img width="100%" src="images/fad/fad-desktop-wireframe1.png">
+                            <img width="100%" src="images/fad/fad-desktop-wireframe2.png">
+                            <img width="100%" src="images/fad/fad-mobile-wireframe1.png">
+
+                            <p class="description">We wanted to allow users search for the appropriate specialty, condition, treatment or name first, before providing filters. Which is why the single searchbox was the new focal point for these wireframes. After the initial search, insurance and location are the next filters in the hierarchy on the results page. New features also included the ability to see how far away a physician was from your location, the ability to filter by primary care physicians, and the ability to sort by schedule availability.</p>
+
+                            <br />
+                            <h4>Improving our Technology</h4>
+                            <p class="description">Solr as a search engine also allowed a much more intuitive experience for both the patient and the management of physician data. NYULMC staff could now easily tag physician data through our CMS. This allowed changes to be made much more rapidly outside the development team. Boolean searches, synonyms, and spell check were also integrated into search, allowing users more freedom and direction while searching medical terminology.</p>
+
+                            <br />
+                            <h4>Final Designs</h4>
+                            <p class="description">Using the approved wireframes as a framework I created the final UI in Sketch. In order to test our designs, provide context for the developers, and socialize these improvements across the company I created interactive prototypes of the new Find a Doctor.</p>
+
+                            <blockquote id="blockquote-teal">
+                                <a target="_tab" src="https://marvelapp.com/j2a9fh?emb=1" width="100%" height="1580" allowTransparency="true" frameborder="0">Desktop Prototype</a>
+                            </blockquote>
+
+                            <br />
+                            <div>
+                                <iframe src="https://marvelapp.com/j2efd0?emb=1" width="100%" height="901" allowTransparency="true" frameborder="0"></iframe>
+                            </div>
+
+
+                            <br />
+                            <br />
+                            <h4>Future Enhancements</h4>
+                            <p class="description">After implementation, I interviewed and sent surveys to users at the call center. The feedback they gave me was invaluable. It was great to hear about how these improvements could help make their jobs easier, as well as to hear about their pain points that still existed. Analytics were a key part of this development process, and future insights. We want to make sure that we measure the success of our solutions with data.</p>
+
+                            <p class="description">These were the features planned for the next release:</p>
+                            <ul class="description">
+                                <li>• Ability to search by neighborhood</li>
+                                <li>• Pediatric filter</li>
+                                <li>• Spelling assist (spellcheck in search)</li>
+                                <li>• Synonyms for Specialties</li>
+                            </ul>
+
+                        </div>
+                        <div class="gallery-action">
+                            <a target="_tab" class="btn-floating btn-large waves-effect waves-light" href="http://nyulangone.org/doctors"><i class="material-icons">link</i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter case-studies">
+                    <div class="gallery-curve-wrapper">
+                        <a class="gallery-cover gray">
+                            <img class="responsive-img" src="images/janssen_thumbnail.png" alt="XARELTO-thumbnail">
+                        </a>
+                        <div class="gallery-header">
+                            <span>XARELTO DocCenter App</span>
+                        </div>
+                        <div class="gallery-body">
+                            <div class="title-wrapper">
+                                <h3>XARELTO DocCenter App</h3>
+                                <span class="price">Designer, Illustrator, Copywriter</span>
+                            </div>
+
+                            <br />
+                            <p class="description">The XARELTO® DocCenter App is designed to provide the latest XARELTO® prescribing and clinical information for US-based healthcare professionals. XARELTO® is a medication prescribed to help treat and prevent blood clots. The three modules I worked on were Deep Vein Thrombosis (DVT) or Pulmonary Embolism (PE), Hip Replacement Surgery, and Knee Replacement Surgery. I worked in collaboration with a team at the agency Razorfish for final development and integration into the full application.</p>
+
+                            <hr class="teal-divider">
+
+                            <h4>My Role</h4>
+                            
+                            <div class="design-margin">
+                                <img width="100%" src="images/xdc/xdc_final_patientmodules.png">
+                            </div>
+                            
+                            <p class="description">My role was ownership over UX and UI design, 3D illustration, and copywriting/medical referencing for the patient education modules. I was provided the shell for the application’s main navigation from Razorfish. Inside this shell I designed the layout, navigation, content and interactivity for the patient education modules. Being an application for healthcare professionals meant that I had to reference all content, including illustrations, to ensure medical accuracy for regulatory review.</p>
+
+                            <br/>
+                            <h4>Medical Research</h4>
+
+                            <p class="description">Referencing the efficacy of XARELTO® as well as various clinical trials (E.g. EINSTEIN-DVT and –PE trials) helped me to create the written content for the modules. The images were created by using references such as The Visible Human Project®, the Open Access Biomedical Image Search Engine, and the National Library of Medicine’s Digital Collections. I was also able to use 3D models of hip and knee implant hardware in my final renders.</p>
+
+                            <br/>
+                            <h4>Wireframes</h4>
+
+                            <p class="description">These are the initial wireframes created using illustrator for the four proposed education models.</p>
+
+                            <div class="design-margin">
+                                <img width="100%" src="images/xdc/xdc_acs_wireframe.png">
+                                <img width="100%" src="images/xdc/xdc_dvtpe_wireframe.png">
+                                <img width="100%" src="images/xdc/xdc_hip_wireframe.png">
+                                <img width="100%" src="images/xdc/xdc_knee_wireframe.png">
+                            </div>
+
+                            <p class="description">Wireframes were created with placeholder copy and images in order to get across the layout, content, and interactivity of the patient education modules. The module for Acute Coronary Syndrome was not implemented. A regulatory board of physicians and medical experts at Janssen (J&J Pharmaceuticals) reviewed these wireframes.</p>
+
+                            <br/>
+                            <h4>3D Artwork</h4>
+
+                            <p class="description">As a trained medical illustrator with observational experience in an operating room I created the accompanying illustrations and 3D renders. I used Maya, and Zbrush as well as 3D assets from the Visible Human Project, and our 3D models of hip and knee replacement hardware from previous anatomical models. I imported these renders into Photoshop to emphasize the relevant anatomy and disease states.</p>
+
+                            <div>
+                                <img width="100%" src="images/xdc/xdc_artwork_hip.png">
+                                <img width="100%" src="images/xdc/xdc_artwork_knee.png">
+                            </div>
+
+                            <br/>
+                            <h4>Final Designs</h4>
+
+                            <p class="description">Click the button on the top right of this project page to download the application from iTunes.</p>
+
+                            <div>
+                                <img width="100%" src="images/xdc/xdc_mockup.png">
+                            </div>
+
+                            <p class="description">The final designs were created using Illustrator and Photoshop to retina iPad dimensions. Final copywriting was referenced using the Chicago style. The artwork was delivered in Photoshop format. A simple Balsamiq prototype was shared with the developers at Razorfish in order to better understand the intended interactivity. After a couple of QA sessions, the application was successfully integrated, and I’m very happy with the final result!</p>
+
+                        </div>
+                        <div class="gallery-action">
+                            <a target="_tab" href="https://itunes.apple.com/us/app/xarelto-doccenter-hcp-prescribing-information/id605339037?mt=8" class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">link</i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter side-projects">
+                    <div class="gallery-curve-wrapper">
+                        <a class="gallery-cover gray">
+                            <img src="http://placehold.it/350x300" alt="placeholder">
+                        </a>
+                        <div class="gallery-header">
+                            <span>Voxel Dreams</span>
+                        </div>
+                        <div class="gallery-body">
+                            <div class="title-wrapper">
+                                <h3>Voxel Dreams</h3>
+                                <span class="price">Game Designer, Artwork</span>
+                            </div>
+                            <p class="description">
+                                Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                            <p class="description">
+                                Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                            <div class="carousel-wrapper">
+                                <div class="carousel">
+                                    <a class="carousel-item" href="#one!"><img src="http://placehold.it/300x200"></a>
+                                    <a class="carousel-item" href="#two!"><img src="http://placehold.it/300x200"></a>
+                                    <a class="carousel-item" href="#three!"><img src="http://placehold.it/300x200"></a>
+                                    <a class="carousel-item" href="#four!"><img src="http://placehold.it/300x200"></a>
+                                    <a class="carousel-item" href="#five!"><img src="http://placehold.it/300x200"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-action">
+                            <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">link</i></a>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter side-projects">
+                    <div class="gallery-curve-wrapper">
+                        <a class="gallery-cover gray">
+                            <img src="images/3dm_thumbnail.png" alt="placeholder">
+                        </a>
+                        <div class="gallery-header">
+                            <span>3D Modeling</span>
+                        </div>
+                        <div class="gallery-body">
+                            <div class="title-wrapper">
+                                <h3>3D Modeling</h3>
+                                <span class="price">Medical Illustration, Game Design</span>
+                            </div>
+                            <p class="description">
+                                Infor® M3™ sought to redesign Equipment Rental, an Infor CloudSuite™ solution that allows equipment rental shop representatives to create and manage equipment rental agreements, maintain customer information, and manage inventory. Infor CloudSuite Equipment Rental needed a streamlined process, a UI refresh, and mobile adaptability.</p>
+                            <hr class="teal-divider">
+                            <h5>My Role</h5>
+                            <p>At Infor I work exclusively on the Manufacturing, Industrial and Distribution team. Working on this team allows me the ability to get to know the industry through site visits, usability sessions and collaboration with a veteran product team. I was brought on to design a new product using a new framework that would be architected based on my designs for other teams to use in the future.</p>
+                            <h5>On-site Research</h5>
+                            <p>Members of the Hook & Loop research and design team Robert Peterson, Elan Nahman Stouffer, Andrew Brant, and myself conducted discovery research with equipment rental professionals through WebEx sessions and on-site visits to their workplaces. We were able to discover both successes and pain points by interviewing users from a diverse group of customers and observing real-world use of M3 in the context of equipment rentals.</p>
+                            <p>Customers involved in this project include Gap Group, Cianbro and Herc Rentals. Gap Group and Cianbro use M3, the ERP that Rental Counter will sit on top of. Herc Rentals (until recently was part of the Hertz Corporation) does not use M3, but will be rolling it out in the near future.</p>
+                            <p>Before this trip and our research I created simple wireframes and prototypes based on the requirements outlined by our product team. This allowed us to immediately test some our teams assumptions about what functionality should be included in the application.</p>
+
+                            <div class="carousel-wrapper">
+                                <div class="carousel">
+                                    <a class="carousel-item" href="#one!"><img src="images/rentalcounter/rentalcounter_usability.png"></a>
+                                    <a class="carousel-item" href="#two!"><img src="images/rentalcounter/rentalcounter_onsite.png"></a>
+                                    <a class="carousel-item" href="#one!"><img src="images/rentalcounter/rentalcounter_usability.png"></a>
+                                    <a class="carousel-item" href="#two!"><img src="images/rentalcounter/rentalcounter_onsite.png"></a>
+                                </div>
+                            </div>
+
+                            <ul>Key Findings:
+                                <li>Rental Workers manually create price estimates</li>
+                                <li>Current rental agreements lack the adaptability that users and rental counters need</li>
+                                <li>The diverse scenarios in equipment rental demands a flexible system</li>
+                                <li>Rental workers need fast access to accurate equipment information</li>
+                            </ul>
+
+                            <h5>Sitemap</h5>
+                            <h5>Use Cases &amp; Flows</h5>
+                            <h5>Wireframes &amp; Prototypes</h5>
+                            <h5>Customer User Testing</h5>
+                            <h5>Final Designs</h5>
+
+                        </div>
+                        <div class="gallery-action">
+                            <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">email</i></a>
+                        </div>
+                    </div>
+                </div>-->
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+
+    <!-- Core Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/materialize/0.98.0/js/materialize.min.js"></script>
+    <script src="js/color-thief.min.js"></script>
+    <script src="js/galleryExpand.js"></script>
+    <script src="js/init.js"></script>
+
+</body>
+
+</html>
